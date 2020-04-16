@@ -105,10 +105,7 @@
 <div class="slidecontainer">
 <input type="range" min="0" max="100" value="0" class="slider" id="myRange1">
 </div>
-//<h4 id="slider2"></h4>
-//<div class="slidecontainer">
-//<input type="range" min="0" max="100" value="0" class="slider" id="myRange2">
-//</div>
+
 <h4 id="slider3"></h4>
 <div class="slidecontainer">
 <input type="range" min="0" max="100" value="4" class="slider" id="myRange3">
@@ -153,7 +150,6 @@ var now;
 var fps = 0;
 
 var slider1 = document.getElementById("myRange1");
-//var slider2 = document.getElementById("myRange2");
 var slider3 = document.getElementById("myRange3");
 //var output = document.getElementById("slider1");
 var deathper = slider3.valueAsNumber;
@@ -663,7 +659,6 @@ function draw() {
   document.getElementById("demo4").innerHTML = "Recovered: "+ pball;
   document.getElementById("demo6").innerHTML = "Mortality rate: "+ mort + "%";
   document.getElementById("slider1").innerHTML = "Social distancing: "+ slider1.valueAsNumber + "%";
-  //document.getElementById("slider2").innerHTML = "Infectivity: "+ slider2.valueAsNumber + "%";
   document.getElementById("slider3").innerHTML = "Death: "+ slider3.valueAsNumber + "%";
 
 
